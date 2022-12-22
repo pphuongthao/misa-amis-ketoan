@@ -1,0 +1,14 @@
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\bin\Debug\net6.0\MISA.AMIS.Core.deps.json
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\bin\Debug\net6.0\MISA.AMIS.Core.dll
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\bin\Debug\net6.0\MISA.AMIS.Core.pdb
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\obj\Debug\net6.0\MISA.AMIS.Core.csproj.AssemblyReference.cache
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\obj\Debug\net6.0\MISA.AMIS.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\obj\Debug\net6.0\MISA.AMIS.Core.AssemblyInfoInputs.cache
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\obj\Debug\net6.0\MISA.AMIS.Core.AssemblyInfo.cs
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\obj\Debug\net6.0\MISA.AMIS.Core.csproj.CoreCompileInputs.cache
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\obj\Debug\net6.0\MISA.AMIS.Core.dll
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\obj\Debug\net6.0\refint\MISA.AMIS.Core.dll
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\obj\Debug\net6.0\MISA.AMIS.Core.pdb
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\obj\Debug\net6.0\ref\MISA.AMIS.Core.dll
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\obj\Debug\net6.0\MISA.AMIS.Core.Resources.Resource.resources
+E:\BAITAPKHOI\Backend\MISA.Web05.AMIS\MISA.AMIS.Core\obj\Debug\net6.0\MISA.AMIS.Core.csproj.GenerateResource.cache

@@ -1,0 +1,98 @@
+.t-menu{
+    width: 100%;
+    height: 100vh;
+    background-color: #393a3d;
+}
+.t-menu-header{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t-menu-header .t-menu-option{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-position: -424px -86px;
+}
+.t-menu-header .t-logo{
+    height: 32px;
+    width: 96px;
+    background-image: url(../../assets/img/Logo_Module_TiengViet_White.66947422.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.t-menu-listmenu{
+    overflow: auto;
+    height: calc(100vh - 48px);
+    color: #fff;
+    padding-top: 14px;
+    box-sizing: border-box;
+}
+.t-menu-listmenu .t-menu-item{
+    display: flex;
+    align-items: center;
+    height: 42px;
+    padding: 0px 14px 0px 8px;
+    position: relative;
+    border-left: 6px solid transparent;
+    cursor: pointer;
+}
+
+.t-menu-item .t-item-icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+.t-menu-listmenu a:hover{
+    background: rgba(212, 215, 220, 0.2);
+}
+.icon{
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+}
+.item-dashboard{
+    background-position: -33px -1630px;
+}
+.item-cash{
+    background-position: -78px -1631px;
+}
+.item-deposits{
+    background-position: -121px -1633px;
+}
+.item-purchase{
+    background-position: -165px -1632px;
+}
+.item-sell{
+    background-position: -206px -1631px;
+}
+.item-invoice{
+    background-position: -254px -1632px;
+}
+.item-storage{
+    background-position: -294px -1632px;
+}
+.item-tools{
+    background-position: -339px -1633px;
+}
+.item-asset{
+    background-position: -382px -1632px;
+}
+.item-tax{
+    background-position: -427px -1634px;
+}
+.item-cost{
+    background-position: -471px -1633px;
+}
+.item-synthetic{
+    background-position: -514px -1632px;
+}
+.item-budget{
+    background-position: -382px -1664px;
+}
+.item-report{
+    background-position: -552px -1636px;
+}
+.item-analysis{
+    background-position: -207px -1667px;
+}

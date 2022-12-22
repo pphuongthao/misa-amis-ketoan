@@ -1,0 +1,229 @@
+.t-content-main{
+    background-color: #f1f1f1;
+    height: calc(100vh - 48px);
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.t-main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    margin-top: 14px;
+    margin-bottom: 16px;
+}
+.t-header-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+}
+.t-button-add{
+    padding: 6px 16px;
+    border: none;
+    background-color: #2ca01c;
+    border-radius: 3px;
+    color: #fff;
+    height: 36px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.t-button-add:hover{
+    background-color: #35bf22!important;
+}
+.t-button-add:focus{
+    background-color: #2ca01c !important;
+}
+.t-button-add:active{
+    background-color: #248b15!important;
+}
+.t-main-body{
+    background-color: #fff;
+    height: calc(100% - 66px);
+    width: 100%;
+    box-sizing: border-box;
+}
+/* CSS search */
+.t-main-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0 16px;
+}
+.t-search-left{
+    display: flex;
+}
+.t-search-right{
+    display: flex;
+    align-items: center;
+}
+.t-search-right input:focus{
+    border: 1px solid #2ca01c;
+}
+.t-search-gr{
+    /* margin-right: 5px; */
+    position: relative;
+   
+}
+.t-search-right input{
+    border: 1px solid #babec5;
+    outline: none;
+}
+.t-input{
+    width: 240px !important;
+    height: 32px;
+    min-width: 125px;
+    border-radius: 2px;
+    padding: 0 36px 0 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.t-input:placeholder-shown{
+    font-style: italic;
+}
+
+.t-icon-search{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding-left: 10px;
+    background-position: -992px -355px;
+}
+.t-icon-refresh{
+    cursor: pointer;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    padding: 0 6px;
+    /* background-position: -425px -201px; */
+}
+.import{
+    background-position: -705px -202px;
+}
+.mi-refresh {
+    background-position: -417px -201px;
+    margin-right: 0!important;
+}
+
+.mi-refresh:hover {
+    background-position: -1091px -88px;
+    margin-right: 0!important;
+}
+
+.export {
+    background-position: -698px -199px;
+    margin-right: 0!important;
+}
+
+.export:hover {
+    background-position: -698px -255px;
+    margin-right: 0!important;
+}
+/* Content */
+.t-main-table{
+    height: calc(100% - 88px);
+    padding: 0 20px;
+}
+/* Footer */
+.t-footer{
+    position: sticky;
+    bottom: 0;
+    top: 0;
+    background-color: #fff;
+}
+.t-main-footer{
+    padding-right: 12px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.t-footer-left{
+    display: block;
+}
+.t-footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mt-4{
+    margin: 0 16px;
+}
+.select-quantity{
+    height: 32px;
+    margin: 16px;
+}
+.t-footer-page{
+    display: flex;    
+}
+.t-footer-page button{
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+}
+.t-page-number .page-number-select{
+    border: 1px solid #ddd;
+}
+.el-input__wrapper{
+    margin-right: 10px;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+/* CSS phân trang */
+
+.paging-footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+    height: 35px;
+}
+
+:root {
+    --el-color-primary: #ffffff !important;
+    --el-color-white: #111111 !important;
+}
+
+.el-pager li.is-active {
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+}
+
+.el-pagination.is-background .el-pager li:not(.is-disabled):hover {
+    color: #6a6788;
+    background: #ffffff !important;
+}
+
+.el-pagination.is-background .el-pager li:not(.is-disabled).is-active {
+    border: 1px solid #e0e0e0 !important;
+}
+
+.pagination.is-background.el-pagination--small .el-pager li {
+    background: #ffffff !important;
+}
+
+.el-pagination.is-background .el-pager li {
+    background-color: #ffffff;
+}
+
+.el-pagination--small span:not([class*=suffix]) {
+    color: #6a6788;
+}
+
+
+ 
+

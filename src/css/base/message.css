@@ -1,0 +1,88 @@
+/* CSS form hiển thị thông báo lỗi */
+.t-dialog-error{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 30;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.546);
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.t-content-dialog{
+    width: 400px;
+    min-width: 444px;
+    /* height: 200px;
+    display: flex;
+    flex-direction: column; */
+    border-radius: 4px;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 32px;
+    box-sizing: border-box;
+}
+.t-header-error{
+    display: flex;
+    align-items: flex-start;
+}
+.t-icon-ms{
+    height: 48px;
+    width: 48px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);   
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.icon-validate{
+    background-position: -752px -450px;
+}
+.icon-question{
+    background-position: -832px -462px;
+}
+.icon-warning{
+    background-position: -598px -463px;
+}
+.t-ms-content{
+    overflow: auto;
+    /* height: 30px; */
+    margin-bottom: 32px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+.t-ms-content div{
+    font-size: 13px;
+    /* font-weight: 700; */
+}
+.t-ms-line{
+    /* height: 1px;
+    background: #b8bcc3; */
+    width: 100%;
+    border-top: 1px solid #b8bcc3;
+    margin: 0 0 20px 0;
+}
+.t-footer-error{
+    position: relative;
+    height: 36px;
+    margin-top: 20px;
+    
+}
+.t-footer-content{
+    display: flex;
+    justify-content: center;
+}
+.t-footer-close{
+    display: flex;
+    justify-content: space-between;
+}
+.t-error-right{
+    display: flex;
+}
+.t-footer-duplicate{
+    display: flex;
+    justify-content: flex-end;
+}

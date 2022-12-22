@@ -1,0 +1,43 @@
+.btn {
+    padding: 6px 16px;
+    border: none;
+    background-color: #2ca01c;
+    border-radius: 3px;
+    color: #fff;
+    height: 34px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.btn-default {
+    background-color: transparent;
+    border: 1px solid #8d9096 !important;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 3px;
+    color: #111;
+    height: 34px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: #35bf22!important;
+}
+.btn:focus{
+    background-color: #2ca01c !important;
+}
+.btn:active{
+    background-color: #248b15!important;
+}
+.btn-default:hover{
+    background-color: #d2d3d6;
+}
+.btn-default:focus{
+    background-color: #E0E0E0;
+}
+.btn-default:active{
+    background-color: #bbbcbc;
+}
+.button-error-yes{
+    margin-left: 8px;
+}

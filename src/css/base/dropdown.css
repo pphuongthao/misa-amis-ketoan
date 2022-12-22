@@ -1,0 +1,117 @@
+ /* CSS Dropdown phân trang*/
+ .sel-footer-right ::placeholder {
+    color: rgb(16, 15, 15) !important;
+    opacity: 1;
+    border: none;
+}
+
+.ops-footer-right:hover {
+    color: #2ca01c ;
+    background-color: #f1f1f1 !important;
+}
+
+.ops-footer-right:focus {
+    background-color: #2ca01c !important;
+    color: #fff;
+}
+
+.el-select {
+    --el-select-input-focus-border-color: #2ca01c !important;
+
+}
+.el-input {
+    --el-input-border-color: #babec5 !important;
+}
+.el-select-dropdown__item.selected {
+    color: #ecf0f1;
+    background-color: #2ca01c !important;
+    font-weight: 700;
+   
+}
+.el-select .el-input__inner{
+    height: 32px;
+}
+.el-input__wrapper{
+    margin: 0;
+}
+
+.el-pagination {
+    --el-pagination-hover-color: none !important;
+    --el-pagination-button-bg-color: #fff !important;
+}
+
+/* CSS thực hiện hàng loạt */
+.dropdown-delete-li {
+    min-width: 100px !important;
+}
+
+.dropdown-delete-ul {
+    padding: 2px 1px !important;
+}
+.dropdown-delete {
+    border: 2px solid #3b3c3f !important;
+    padding: 0 16px !important;
+    border-radius: 30px;
+    color: #111 !important;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.dropdown-delete:hover {
+    background-color: #d2d3d6 !important;
+}
+
+.dropdown-delete-link {
+    font-weight: 600;
+    color: #111111;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.icon-delete-all {
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-position: -1752px -311px;
+    height: 16px;
+    width: 16px;
+    /* padding-top: 3px; */
+}
+
+.delete-link {
+    padding-right: 4px;
+}
+
+.dropdown-delete-li:hover {
+    color: #111111 !important;
+}
+
+.dropdown-delete-li:focus {
+    color: #111111 !important;
+}
+
+.dropdown-delete .el-button-group>.el-button:first-child {
+    padding: 0 !important;
+}
+
+.dropdown-delete .el-button-group>.el-button:nth-child(2) {
+    display: none !important;
+}
+.el-popper__arrow::before {
+    display: none !important;
+}
+.el-popper.is-pure {
+    border: none!important;
+}
+.el-select.input-valid {
+    --el-select-input-focus-border-color: #E61D1D !important;
+    --el-select-border-color-hover: #E61D1D !important;
+}
+.input-valid .select-trigger .el-input {
+    --el-input-border-color: #E61D1D !important;
+}
+.el-select.el-select--large.sel-footer-right.el-tooltip__trigger.el-tooltip__trigger{
+    height: 32px;
+}

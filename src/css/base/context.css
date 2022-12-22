@@ -1,0 +1,52 @@
+/* CSS context menu */
+.el-dropdown-link {
+    color: #0075c0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.el-button:focus .el-dropdown-link {
+    outline: 1px solid #0075c0 !important;
+}
+
+.el-button:hover {
+    background-color: transparent !important;
+}
+
+.el-dropdown__caret-button {
+    padding: 0 !important;
+    height: 16px !important;
+    border-radius: 0 !important;
+    color: #0075c0 !important;
+}
+
+.el-button-group {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.el-dropdown__caret-button:visited {
+    background-color: transparent !important;
+}
+
+.el-dropdown__caret-button:focus {
+    background-color: transparent !important;
+    outline: 1px solid #0075c0 !important;
+}
+
+.el-dropdown-menu__item {
+    color: #111111 !important;
+    font-size: 13px !important;
+}
+
+.el-dropdown-menu__item:focus {
+    background-color: #e8e9ec !important;
+    color: #08bf1e !important;
+}
+.el-button {
+    border: none !important;
+    background-color: transparent !important;
+}
+.el-button.el-dropdown__caret-button::before {
+    background: none !important;
+}

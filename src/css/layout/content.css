@@ -1,0 +1,6 @@
+@import url(./content_header.css);
+@import url(./content_main.css);
+.t-content{
+    width: calc(100% - 178px);
+    height: 100vh;
+}
